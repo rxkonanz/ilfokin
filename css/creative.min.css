@@ -11,6 +11,20 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ @font-face {
+    font-family: 'Neusa-Regular';
+    src: url('../Neusa/Neusa-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neusa-Bold';
+    src: url('../Neusa/Neusa-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -4172,7 +4186,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .navbar {
-    height: 60px;
+    height: 80px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9933,10 +9947,10 @@ hr.light {
 }
 
 #mainNav .navbar-brand {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Neusa-Bold';
     font-size: 30px;
     color: #fff;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10084,4 +10098,6 @@ header.masthead h1 {
 footer {
     background-color: #000;
     color: #fff;
+    font-family: 'Neusa-Regular';
+    font-size: 20px;
 }

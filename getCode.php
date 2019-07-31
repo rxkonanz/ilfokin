@@ -17,7 +17,7 @@
 		if ($result = mysqli_query($con,"SELECT * FROM ilfokincircus WHERE nombre = '$nombre' AND apellido='$apellido'")){
             		$row_cnt = mysqli_num_rows($result);
             		if ($row_cnt==1){
-            			$_SESSION['username'] = $username;
+            			// $_SESSION['username'] = $username;
                         header("Location: success.html");
 	                }
                     else {
