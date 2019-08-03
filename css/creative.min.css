@@ -12,8 +12,8 @@
  */
 
  @font-face {
-    font-family: 'Neusa-Regular';
-    src: url('../Neusa/Neusa-Regular.otf');
+    font-family: 'Neusa-DemiBold';
+    src: url('../Neusa/Neusa-DemiBold.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -74,8 +74,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
     margin: 0;
-    font-family: Merriweather, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
+    font-family: "Neusa-DemiBold";
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -351,7 +351,7 @@ template {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Neusa-Bold";
     font-weight: 500;
     line-height: 1.2
 }
@@ -8264,7 +8264,7 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .mb-5, .my-5 {
-    margin-bottom: 3rem!important
+    margin-bottom: 1rem!important
 }
 
 .ml-5, .mx-5 {
@@ -10098,6 +10098,38 @@ header.masthead h1 {
 footer {
     background-color: #000;
     color: #fff;
-    font-family: 'Neusa-Regular';
+    font-family: 'Neusa-DemiBold';
     font-size: 20px;
 }
+
+#lets-go-button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #fff;
+}
+
+.form-control {
+    background-color: black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+#form2, #form3 {
+    color: #fff;
+}
+
+input[type="text"]:focus, textarea:focus {
+    background-color : #000;
+    border-color: white; 
+  }
